@@ -10,6 +10,7 @@
   <body>
     <div class="box">
       <h2>Random Password Generater</h2>
+
       <input
         type="text"
         name=""
@@ -18,15 +19,16 @@
         readonly
       />
 
-      <table>
+      <table class="buttons">
         <th>
           <div id="button" class="btn1" onclick="genPassword()">Generate</div>
         </th>
-        <th><a id="button" class="btn2" onclick="copyPassword()">Copy</a></th>
+        <th>
+          <div id="button" class="btn2" onclick="copyPassword()">Copy</a>
+        </th>
       </table>
     </div>
 
     <script src="app.js"></script>
-  
-</body>
+  </body>
 </html>
